@@ -43,7 +43,7 @@ export default function Navbar({userToken,LogOut}) {
           : 
           <div className="navbar-nav">
           <Link className="nav-link" to="register">Register</Link>
-          <Link className="nav-link" to="">Login</Link>
+          <Link className="nav-link" to="register">Login</Link>
           </div>
              
         }

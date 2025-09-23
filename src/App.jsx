@@ -52,6 +52,7 @@ useEffect(()=>{
     {path : 'home' , element: <ProtectedRoute userToken={userToken}> <Home/> </ProtectedRoute>},
     {path : 'about' , element:<ProtectedRoute  userToken={userToken}> <About/> </ProtectedRoute> },
     {path : 'contacts' , element:<ProtectedRoute  userToken={userToken}> <Contacts/> </ProtectedRoute> },
+    {path : 'Movies_api' , element:<ProtectedRoute > <Login saveUserToken={saveUserToken} /> </ProtectedRoute> },
     {path : 'itemdetails/:id/:mediaType' , element: <ItemDetails/>},
     {path : 'register' , element: <Register/>},
     {path : 'profile' , element: <ProtectedRoute  userToken={userToken}> <Profile myUserData= {myUserData}/> </ProtectedRoute>},
