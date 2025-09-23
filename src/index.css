@@ -1,0 +1,101 @@
+:root{
+  --bg-color : #131722;
+  /* --bg-color : #a3a3a7; */
+  --bg-voteColor: #24baef;
+}
+
+body {
+  margin: 0;
+ /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+ font-family: 'Montserrat Alternates' , sans-serif;
+ background-color: var( --bg-color );
+ /* background-color:#131722 ; */
+ color: white;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.vote{
+  background-color: var(--bg-voteColor);
+
+}
+.color_bisque{
+  color: bisque;
+}
+
+
+/* register */
+.input{
+  background-color: transparent !important;
+  margin-left: 10px;
+  color: white !important;
+  border: solid #a8a8a83d  1px;
+}
+
+
+/* about Component __________________________________________*/
+.about-container {
+  max-width: 900px;
+}
+
+.about-card {
+  background: linear-gradient(135deg, #141e30, #243b55); 
+  color: #f8f9fa; 
+}
+
+.about-card .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffcc00; 
+}
+
+.about-card .card-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-card strong {
+  color: #ffcc00;
+}
+
+
+
+/* contact __________________________*/
+.contact-container {
+  max-width: 700px;
+  color: white ; 
+}
+
+.card {
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+.card h2,p {
+  /* color: #243b55; */
+  color: white ; 
+  font-weight: bold;
+}
+
+.btn-warning {
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+.contact-container form{
+
+color: white ;
+}
